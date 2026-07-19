@@ -90,7 +90,7 @@ export default function Hero() {
           <div className="lg:col-span-5 relative w-full h-[400px] sm:h-[450px] lg:h-[500px]">
             <div className="w-full h-full overflow-hidden fluid-morph-card bg-slate shadow-2xl border border-sand/10 relative group">
               <img 
-                src="/images/hall.jpg" 
+                src={`${import.meta.env.BASE_URL}images/hall.jpg`} 
                 alt="Studio interior" 
                 className="w-full h-full object-cover grayscale-[15%] group-hover:grayscale-0 transform group-hover:scale-105 transition-all duration-1000"
               />
@@ -102,7 +102,7 @@ export default function Hero() {
             {/* Bamboo Frame */}
             <div className="flex-1 lg:h-[220px] overflow-hidden fluid-morph-card-alt bg-slate shadow-lg border border-sand/10 group">
               <img 
-                src="/images/bamboo.jpg" 
+                src={`${import.meta.env.BASE_URL}images/bamboo.jpg`} 
                 alt="Bamboo decor" 
                 className="w-full h-full object-cover grayscale-[30%] group-hover:grayscale-0 transform group-hover:scale-105 transition-all duration-1000"
               />
@@ -110,7 +110,7 @@ export default function Hero() {
             {/* Mats Frame */}
             <div className="flex-1 lg:h-[220px] overflow-hidden fluid-morph-card bg-slate shadow-lg border border-sand/10 group">
               <img 
-                src="/images/mats.jpg" 
+                src={`${import.meta.env.BASE_URL}images/mats.jpg`} 
                 alt="Yoga equipment detail" 
                 className="w-full h-full object-cover grayscale-[30%] group-hover:grayscale-0 transform group-hover:scale-105 transition-all duration-1000"
               />
